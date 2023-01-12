@@ -1,5 +1,4 @@
-  // funcao para adicionar os elementos, pois eles ainda nao foram carregados
-  function addEvents(){
+
     //pescando os elementos
     var v1=document.getElementById("v1");
     var v2=document.getElementById("v2");
@@ -28,7 +27,3 @@
     });
 
     //-----------------------------------------------------------------------------------------------------------
-
-}
-//assim que a pagina carregar ele adicionara os elemetnos
-window.addEventListener("load", addEvents);
